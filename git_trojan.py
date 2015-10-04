@@ -19,7 +19,7 @@ task_queue = Queue.Queue()
 
 
 def connect_to_git():
-    gh = login(username="m3ss0r3m", password="4%xttfllk5$$60%4Q")
+    gh = login(username="", password="")
     repo = gh.repository("m3ss0r3m", "c7")
     branch = repo.branch("master")
     return gh, repo, branch
